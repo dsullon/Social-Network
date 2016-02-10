@@ -85,14 +85,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Dominio\Perfil.cs" />
+    <Compile Include="Dominio\Publicacion.cs" />
     <Compile Include="Dominio\Usuario.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Mappers\PerfilConfiguracion.cs" />
+    <Compile Include="Mappers\UsuarioConfiguracion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Dominio\DiagramaClase.cd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

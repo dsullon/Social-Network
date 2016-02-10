@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SocialNetwork.RestServices.Dominio.Perfil">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAYAAAAAAAAACAgQAAAAAAAEAEAAAkAAAAAAA=</HashCode>
+      <FileName>Dominio\Perfil.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+      <Property Name="Privacidad" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SocialNetwork.RestServices.Dominio.Usuario">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAICAAAAAEAQAAgCAAABAAAAECAAAAQAAAAAA=</HashCode>
+      <FileName>Dominio\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Perfil" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Publicacion" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SocialNetwork.RestServices.Dominio.Publicacion">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>Dominio\Publicacion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="SocialNetwork.RestServices.Dominio.Privacidad">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>Dominio\Perfil.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -13,5 +13,11 @@ namespace SocialNetwork.RestServices.Dominio
         public string Password { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
+        public string Foto { get; set; }
+        public bool EstaActivo { get; set; }
+        public bool EnLinea { get; set; }
+        public Perfil Perfil { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public ICollection<Publicacion> Publicacion { get; set; }
     }
 }
